@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(148, 224, 224);
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: rgb(183, 240, 240);
+    padding: 10px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: rgb(183, 240, 240);
+    padding: 10px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+label, input, select, textarea {
+    margin: 10px 0;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: rgb(183, 240, 240);
+    border: none;
+    cursor: pointer;
+}
